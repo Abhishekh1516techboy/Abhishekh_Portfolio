@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abhisheh | Personal Portfolio</title>
+        <link rel="shortcut icon" href="assets/images/icon.jpg" type="image/.wepb">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+
+    <body>
+
+        <div class="portfolio-loader">
+            <img src="assets/images/loader.gif" alt="">
+        </div>
+
+        <div class="main-container">
+            <!-- Header-section -->
+            <header>
+                <nav>
+
+                    <!-- Author-section -->
+                    <div class="author">
+                        <svg class="cross-icon" width="26" height="26" viewBox="0 0 15 15">
+                            <path fill="#ccc" d="M3.64 2.27L7.5 6.13l3.84-3.84A.92.92 0 0 1 12 2a1 1 0 0 1 1 1a.9.9 0 0 1-.27.66L8.84 7.5l3.89 3.89A.9.9 0 0 1 13 12a1 1 0 0 1-1 1a.92.92 0 0 1-.69-.27L7.5 8.87l-3.85 3.85A.92.92 0 0 1 3 13a1 1 0 0 1-1-1a.9.9 0 0 1 .27-.66L6.16 7.5L2.27 3.61A.9.9 0 0 1 2 3a1 1 0 0 1 1-1c.24.003.47.1.64.27Z"/>
+                        </svg>
+                        <div class="author-img">
+                            <img src="assets/images/author.webp" alt="">
+                        </div>
+                        <div class="author-name">
+                            <h3>Abhishekh Kumar</h3>
+                        </div>
+                    </div>
+
+                    <!-- Navigation-section -->
+                    <div class="nav">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#my-resume">Resume</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+
+                    <!-- Footer-section -->
+                    <div class="footer">
+                        <div class="social-icon">
+                            <a href="https://twitter.com/Abhishekh1516" target="_blank">
+                                <svg width="26" height="26" viewBox="0 0 24 24">
+                                    <path fill="#ccc"
+                                        d="M18.205 2.25h3.308l-7.227 8.26l8.502 11.24H16.13l-5.214-6.817L4.95 21.75H1.64l7.73-8.835L1.215 2.25H8.04l4.713 6.231zm-1.161 17.52h1.833L7.045 4.126H5.078z" />
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/Abhishekh1516techboy" target="_blank">
+                                <svg width="26" height="26" viewBox="0 0 15 15">
+                                    <path fill="#ccc" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5" />
+                                    <path fill="#ccc" fill-rule="evenodd"
+                                        d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0zM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0M11 4h1V3h-1z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/Abhishekh1516techboy" target="_blank">
+                                <svg width="26" height="26" viewBox="0 0 1000 1000">
+                                    <path fill="#ccc"
+                                        d="M196.064.25C88.347.25.187 88.408.187 196.127v607.841c0 107.717 88.158 195.845 195.877 195.845h607.841c107.718 0 195.845-88.127 195.845-195.845V196.127C999.75 88.41 911.623.25 803.905.25zm49.266 164.948c51.648 0 83.461 33.906 84.443 78.475c0 43.585-32.797 78.444-85.442 78.444h-.969c-50.665 0-83.412-34.857-83.412-78.444c0-44.568 33.738-78.475 85.379-78.475zm445.08 208.31c99.329 0 173.79 64.922 173.79 204.436v260.449H713.247V595.406c0-61.06-21.847-102.718-76.476-102.718c-41.704 0-66.562 28.078-77.476 55.202c-3.987 9.704-4.967 23.257-4.967 36.832v253.671H403.375s1.981-411.613 0-454.233h150.984v64.324c20.06-30.95 55.942-74.977 136.051-74.977zm-521.556 10.685h150.953v454.202H168.854z" />
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Abhishekh1516techboy" target="_blank">
+                                <svg width="28" height="28" viewBox="0 0 64 64">
+                                    <path fill="#ccc"
+                                        d="M32 0C14 0 0 14 0 32c0 21 19 30 22 30c2 0 2-1 2-2v-5c-7 2-10-2-11-5c0 0 0-1-2-3c-1-1-5-3-1-3c3 0 5 4 5 4c3 4 7 3 9 2c0-2 2-4 2-4c-8-1-14-4-14-15c0-4 1-7 3-9c0 0-2-4 0-9c0 0 5 0 9 4c3-2 13-2 16 0c4-4 9-4 9-4c2 7 0 9 0 9c2 2 3 5 3 9c0 11-7 14-14 15c1 1 2 3 2 6v8c0 1 0 2 2 2c3 0 22-9 22-30C64 14 50 0 32 0" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer-desc">
+                            <h3>Copyright © 2024 Abhishekh1516techboy.<br /> All rights reserved.</h3>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- Main-section -->
+            <main>
+                <div class="hamburgur-box">
+                    <svg class="hamburgur-icon" width="30" height="30" viewBox="0 0 16 16">
+                        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5" />
+                    </svg>
+                </div>
+                <!--+++++++++++ Home-section++++++++++++ -->
+                <section id="home">
+                    <div class="home-3d-img">
+                        <img src="assets/images/11.webp" alt="">
+                        <img src="assets/images/07.webp" alt="">
+                    </div>
+                    <!-- home-left section -->
+                    <div class="home-left">
+                        <!-- home-title section -->
+                        <div class="title">
+                            <h3>Hi,&nbsp;I'm<span> &nbsp;Abhishekh!</span> </h3>
+                            <h2>creative &nbsp;<span></span></h2>
+                            <p>based &nbsp;in&nbsp;<span>bharat</span></p>
+                        </div>
+                        <!-- subtitals -->
+                        <div class="subtitle">
+                            <p>I'm a india based web designer &amp; front‑end developer with <span>2+ years</span> of experience.</p>
+                        </div>
+                        <!-- home-btns -->
+                        <div class="home-buttons-group">
+                            <a class="home-f-btns" href="#portfolio">Got a project?</a>
+                            <a class="home-t-btns" href="#contact">Let's talk</a>
+                        </div>
+                        <!-- home-info section-->
+                        <div class="home-info">
+                            <ul>
+                                <li>
+                                    <a href="tel:+91 620 460 91 87">+91 620 460 91 87</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:abhishekhkumar1516@gmail.com">abhishekhkumar1516@gmail.com</a>
+                                </li>
+                                <li>
+                                    <a class="href_location" href="https://www.google.com/maps/@25.6080374,85.1430429,12z?entry=ttu" target="_blank">Patna New City Bihar, Bharat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- home-right section -->
+                    <div class="home-right">
+                        <img src="assets/images/uu5.webp" alt="">
+                    </div>
+                    <a id="yoyo" href="#about">
+                        <svg width="50" height="50" viewBox="0 0 16 16">
+                            <path fill="#ffc400" fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14m.75-10.25a.75.75 0 0 0-1.5 0v4.69L6.03 8.22a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06L8.75 9.44z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </section>
+                <!-- +++++++++++About-section+++++++++++++ -->
+                <section id="about">
+                     <div class="about-3d-img">
+                         <img src="assets/images/dj7.webp" alt="">
+                         <img src="assets/images/08.webp" alt="">
+                    </div>
+                    <!-- admin-detels-left -->
+                    <div class="admin-dets-left">
+                        <h1 class="about-me">about me.</h1>
+                        <div class="admin-dets-leftimg-box">
+                            <img src="assets/images/author.webp" alt="">
+                        </div>
+                    </div>
+                    <!-- admin-detels-right -->
+                    <div class="admin-dets-right">
+                        <h2> I'm a Freelancer Front-end Developer with over 3 years of experience.</h2>
+                        <h4> I'm a Freelancer Front-end Developer with over 3 years of experience.<br> I'm from <span>
+                                india</span>. I code and create web elements for amazing people around the world. I like
+                            work with new people. New people new Experiences.</h4>
+                        <div class="admin-infos">
+                            <ul>
+                                <li>
+                                    <span>
+                                        <span class="dot">
+                                            <span>Age :</span>
+                                            <span>20 Years</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <span class="dot">
+                                            <span>Nationality :</span>
+                                            <span>Indian</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <span class="dot">
+                                            <span>Religion :</span>
+                                            <span>Hindu</span>
+                                        </span>
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <span>
+                                        <span class="dot">
+                                            <span>Freelance :</span>
+                                            <span>Available</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <span class="dot">
+                                            <span>Language :</span>
+                                            <span>English , Hindi</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <span class="dot">
+                                            <span>Address :</span>
+                                            <span>Patna , Bihar 804453</span>
+                                        </span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="admin-resume" href="assets/images/CV Resume.pdf" target="_blank">Download CV
+                            <svg width="22" height="22" viewBox="0 0 20 20">
+                                <g fill="#dadada">
+                                    <path
+                                        d="M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 0 0-1.09-1.03l-2.955 3.129z" />
+                                    <path
+                                        d="M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25z" />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- ++++++++++about admin-skils section ++++++++++-->
+                <section class="admin-skills">
+
+                    <div class="skill-3d-img">
+                        <img src="assets/images/dj6.webp" alt="">
+                        <img src="assets/images/mc3.webp" alt="">
+                   </div>
+
+                    <!-- <div class="custom-shape-divider-top-1708694272">
+                        <svg data-name="Layer 1" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                        </svg>
+                    </div> -->
+                    <!-- TITLE STARTS -->
+                    <div class="custom-title">
+                        <h3>
+                            My Skills.
+                        </h3>
+                    </div>
+                    <!-- TITLE ENDS -->
+                    <div class="skills-content">
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg fill="#ffd70d" width="64px" height="64px" viewBox="0 0 1024 1024">
+                                    <g stroke-width="0"></g>
+                                    <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g>
+                                        <path
+                                            d="M145 96l66 746.6L511.8 928l299.6-85.4L878.7 96H145zm610.9 700.6l-244.1 69.6-245.2-69.6-56.7-641.2h603.8l-57.8 641.2zM281 249l1.7 24.3 22.7 253.5h206.5v-.1h112.9l-11.4 118.5L511 672.9v.2h-.8l-102.4-27.7-6.5-73.2h-91l11.3 144.7 188.6 52h1.7v-.4l187.7-51.7 1.7-16.3 21.2-242.2 3.2-24.3H511v.2H389.9l-8.2-94.2h352.1l1.7-19.5 4.8-47.2L742 249H511z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                Html
+                            </h4>
+                        </div>
+                        <div class="skill-items">
+                            <span>
+                                <svg fill="#ffd70d" height="52px" width="52px" version="1.1" viewBox="0 0 512.00 512.00"
+                                    stroke="#ffd70d" stroke-width="12">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M487.915,3.52C485.888,1.28,483.008,0,480,0H32c-3.029,0-5.888,1.28-7.915,3.52c-2.027,2.219-3.008,5.205-2.709,8.213 L64.043,438.4c0.405,4.16,3.243,7.723,7.232,9.045l192,64c1.088,0.384,2.24,0.555,3.371,0.555c1.28,0,2.539-0.235,3.776-0.683 l170.667-64c3.797-1.408,6.464-4.885,6.869-8.917l42.667-426.667C490.923,8.747,489.941,5.739,487.915,3.52z M427.349,429.675 l-160.917,60.352L84.565,429.397L43.755,21.333h424.427L427.349,429.675z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M402.816,110.485c-2.027-2.411-5.035-3.797-8.171-3.797h-256c-5.888,0-10.667,4.779-10.667,10.667 s4.779,10.667,10.667,10.667h243.307l-14.827,85.312H149.312c-5.888,0-10.667,4.779-10.667,10.667s4.779,10.667,10.667,10.667 h214.101l-20.907,120.171l-76.075,28.523l-86.549-28.864l-9.451-47.253c-1.131-5.76-6.699-9.536-12.544-8.363 c-5.76,1.152-9.515,6.763-8.363,12.544l10.667,53.333c0.747,3.755,3.456,6.805,7.083,8.021l96,32 c1.088,0.384,2.24,0.555,3.371,0.555c1.28,0,2.539-0.235,3.755-0.661l85.333-32c3.541-1.344,6.123-4.437,6.763-8.171 l42.667-245.333C405.696,116.075,404.843,112.896,402.816,110.485z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                Css
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg width="64" height="64" viewBox="0 0 24 24">
+                                    <g fill="none" stroke="#ffd70d" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.2">
+                                        <path d="m20 4l-2 14.5l-6 2l-6-2L4 4z" />
+                                        <path
+                                            d="M7.5 8h3v8l-2-1m8-7H14a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h1.423a.5.5 0 0 1 .495.57L15.5 15.5l-2 .5" />
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                JavaScript
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg width="64px" height="64px" viewBox="0 0 48.00 48.00" fill="#000000"
+                                    stroke="#000000" stroke-width="2.16">
+                                    <g stroke-width="0"></g>
+                                    <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g>
+                                        <defs>
+                                            <style>
+                                                .a {
+                                                    fill: none;
+                                                    stroke: #ffd70d;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <path class="a"
+                                            d="M4.21,22.12a2.87,2.87,0,0,0,0,3.77L22.12,43.8a2.87,2.87,0,0,0,3.77,0l17.9-17.91a2.85,2.85,0,0,0,0-3.77L25.89,4.21A2.68,2.68,0,0,0,24,3.51h0a2.66,2.66,0,0,0-1.88.71Z">
+                                        </path>
+                                        <line class="a" x1="26.33" y1="17.85" x2="30.15" y2="21.67"></line>
+                                        <line class="a" x1="17.4" y1="8.92" x2="21.67" y2="13.19"></line>
+                                        <circle class="a" cx="24" cy="32.41" r="3.3"></circle>
+                                        <circle class="a" cx="24" cy="15.52" r="3.3"></circle>
+                                        <circle class="a" cx="32.48" cy="24" r="3.3"></circle>
+                                        <line class="a" x1="24" y1="29.11" x2="24" y2="18.82"></line>
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                Git
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg width="64" height="64" viewBox="0 0 24 24">
+                                    <g fill="none" stroke="#ffd70d" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.2">
+                                        <path
+                                            d="M9 9v8.044a2 2 0 0 1-2.996 1.734l-1.568-.9A3 3 0 0 1 3 15.317V8.682a3 3 0 0 1 1.436-2.56l6-3.667a3 3 0 0 1 3.128 0l6 3.667A3 3 0 0 1 21 8.683v6.634a3 3 0 0 1-1.436 2.56l-6 3.667a3 3 0 0 1-3.128 0" />
+                                        <path d="M17 9h-3.5a1.5 1.5 0 0 0 0 3h2a1.5 1.5 0 0 1 0 3H12" />
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                Node JS
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg fill="#ffd70d" width="64px" height="64px" viewBox="0 0 32 32" version="1.1"
+                                    stroke="#ffd70d" stroke-width="0.16">
+                                    <g stroke-width="0"></g>
+                                    <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g>
+                                        <title>react</title>
+                                        <path
+                                            d="M14.313 22.211c0.55 0.025 1.112 0.043 1.681 0.043 0.575 0 1.143-0.012 1.7-0.043-0.557 0.72-1.107 1.357-1.689 1.964l0.008-0.008c-0.579-0.6-1.135-1.238-1.659-1.902l-0.041-0.054zM8.615 21.411c1.083 0.275 2.404 0.509 3.752 0.653l0.131 0.011c0.825 1.133 1.659 2.13 2.554 3.068l-0.011-0.012c-1.311 1.463-3.080 2.491-5.081 2.86l-0.055 0.008c-0.004 0-0.008 0-0.012 0-0.248 0-0.482-0.061-0.687-0.169l0.008 0.004c-0.832-0.475-1.193-2.292-0.912-4.627 0.067-0.575 0.177-1.18 0.312-1.797zM23.398 21.398c0.118 0.474 0.229 1.078 0.308 1.692l0.009 0.086c0.287 2.334-0.067 4.149-0.892 4.634-0.184 0.102-0.404 0.162-0.638 0.162-0.023 0-0.046-0.001-0.069-0.002l0.003 0c-2.053-0.375-3.821-1.396-5.129-2.841l-0.007-0.008c0.879-0.923 1.707-1.918 2.466-2.965l0.058-0.084c1.476-0.154 2.799-0.392 4.088-0.717l-0.197 0.042zM9.784 17.666c0.25 0.49 0.512 0.978 0.8 1.468q0.431 0.731 0.881 1.428c-0.868-0.127-1.706-0.287-2.507-0.482 0.225-0.787 0.507-1.602 0.825-2.416zM22.212 17.641c0.331 0.821 0.612 1.64 0.845 2.434-0.8 0.196-1.645 0.362-2.519 0.487 0.3-0.469 0.6-0.952 0.881-1.447 0.281-0.487 0.544-0.985 0.795-1.475zM7.619 12.292c0.436 1.478 0.904 2.714 1.449 3.906l-0.075-0.182c-0.466 1.005-0.927 2.234-1.305 3.499l-0.052 0.205c-0.706-0.217-1.274-0.43-1.827-0.669l0.115 0.044c-2.164-0.921-3.564-2.132-3.564-3.092s1.4-2.177 3.564-3.094c0.525-0.225 1.1-0.428 1.694-0.617zM24.358 12.287c0.605 0.187 1.18 0.396 1.718 0.622 2.164 0.925 3.564 2.134 3.564 3.094-0.006 0.96-1.406 2.174-3.57 3.093-0.525 0.225-1.1 0.427-1.693 0.616-0.44-1.483-0.908-2.718-1.451-3.912l0.076 0.188c0.464-1.004 0.926-2.233 1.303-3.498l0.053-0.206zM20.53 11.444c0.869 0.129 1.706 0.287 2.507 0.484-0.225 0.79-0.506 1.602-0.825 2.416-0.25-0.487-0.512-0.978-0.8-1.467-0.281-0.49-0.581-0.967-0.881-1.432zM11.458 11.444c-0.3 0.471-0.6 0.953-0.88 1.45-0.281 0.487-0.544 0.977-0.794 1.467-0.331-0.82-0.612-1.637-0.845-2.433 0.8-0.187 1.643-0.354 2.518-0.482zM16 11.126c0.925 0 1.846 0.042 2.752 0.116q0.761 1.091 1.478 2.324 0.697 1.2 1.272 2.432c-0.385 0.819-0.807 1.637-1.266 2.437-0.475 0.825-0.966 1.61-1.475 2.337-0.91 0.079-1.832 0.122-2.762 0.122-0.925 0-1.846-0.044-2.752-0.116-0.507-0.727-1.002-1.505-1.478-2.324q-0.697-1.2-1.272-2.432c0.379-0.821 0.807-1.641 1.266-2.442 0.475-0.825 0.966-1.607 1.475-2.334 0.91-0.080 1.832-0.122 2.762-0.122zM15.981 7.845c0.58 0.6 1.136 1.237 1.659 1.901l0.040 0.053c-0.55-0.025-1.112-0.042-1.681-0.042-0.575 0-1.143 0.012-1.7 0.042 0.556-0.72 1.106-1.357 1.689-1.964l-0.008 0.008zM9.88 4.033c2.053 0.376 3.82 1.397 5.129 2.841l0.007 0.008c-0.879 0.924-1.707 1.919-2.466 2.968l-0.058 0.084c-1.475 0.153-2.798 0.389-4.086 0.714l0.196-0.042c-0.14-0.612-0.244-1.205-0.317-1.774-0.287-2.334 0.067-4.149 0.892-4.632 0.206-0.097 0.447-0.157 0.701-0.165l0.003-0zM22.090 4.008v0.008c0.013-0 0.028-0.001 0.044-0.001 0.239 0 0.464 0.059 0.662 0.163l-0.008-0.004c0.832 0.477 1.193 2.293 0.912 4.629-0.067 0.575-0.177 1.181-0.312 1.799-1.085-0.278-2.406-0.513-3.754-0.656l-0.128-0.011c-0.826-1.134-1.66-2.131-2.555-3.070l0.012 0.012c1.311-1.46 3.077-2.488 5.074-2.859l0.056-0.009zM22.096 2.646c-2.442 0.371-4.556 1.557-6.1 3.268l-0.008 0.009c-1.555-1.71-3.669-2.888-6.051-3.245l-0.056-0.007c-0.013-0-0.029-0-0.045-0-0.491 0-0.952 0.129-1.351 0.355l0.014-0.007c-1.718 0.991-2.103 4.079-1.216 7.954-3.804 1.175-6.278 3.053-6.278 5.032 0 1.987 2.487 3.87 6.302 5.036-0.88 3.89-0.487 6.983 1.235 7.973 0.378 0.217 0.832 0.344 1.315 0.344 0.022 0 0.044-0 0.065-0.001l-0.003 0c2.442-0.371 4.556-1.558 6.1-3.27l0.008-0.009c1.555 1.711 3.669 2.889 6.051 3.246l0.056 0.007c0.015 0 0.034 0 0.052 0 0.488 0 0.947-0.128 1.344-0.351l-0.014 0.007c1.717-0.99 2.103-4.078 1.216-7.954 3.79-1.165 6.264-3.047 6.264-5.029 0-1.987-2.487-3.87-6.302-5.039 0.88-3.886 0.487-6.982-1.235-7.973-0.382-0.219-0.84-0.348-1.328-0.348-0.013 0-0.026 0-0.039 0l0.002-0zM18.787 16.005c0 1.543-1.251 2.794-2.794 2.794s-2.794-1.251-2.794-2.794c0-1.543 1.251-2.794 2.794-2.794 0.772 0 1.47 0.313 1.976 0.818v0c0.506 0.506 0.818 1.204 0.818 1.976 0 0 0 0 0 0v0z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                React Js
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg width="64px" height="64px" viewBox="0 0 16 16" fill="none">
+                                    <g stroke-width="0"></g>
+                                    <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g>
+                                        <path fill-rule="nonzero" clip-rule="nonzero"
+                                            d="M7.58638 0.102166C7.8199 -0.0340553 8.10867 -0.0340553 8.34219 0.102166L14.5565 3.72717C14.7869 3.86157 14.9286 4.10825 14.9286 4.375V11.625C14.9286 11.8918 14.7869 12.1384 14.5565 12.2728L8.34219 15.8978C8.10867 16.0341 7.8199 16.0341 7.58638 15.8978L1.3721 12.2728C1.14168 12.1384 1 11.8918 1 11.625V4.375C1 4.10825 1.14168 3.86157 1.3721 3.72717L7.58638 0.102166ZM7.96429 14.3817L13.4286 11.1942V4.80578L7.96429 1.61828L2.5 4.80578V11.1942L7.96429 14.3817Z"
+                                            fill="#ffd70d"></path>
+                                        <path fill-rule="nonzero" clip-rule="nonzero"
+                                            d="M8.00017 5.5C6.61936 5.5 5.5 6.61936 5.5 8.00017C5.5 9.38097 6.61936 10.5003 8.00017 10.5003C8.71226 10.5003 9.3538 10.2036 9.81009 9.725C10.0959 9.4252 10.5706 9.41386 10.8704 9.69968C11.1703 9.9855 11.1816 10.4602 10.8958 10.76C10.1682 11.5232 9.13926 12.0003 8.00017 12.0003C5.79094 12.0003 4 10.2094 4 8.00017C4 5.79094 5.79094 4 8.00017 4C9.13445 4 10.1595 4.47309 10.8866 5.23069C11.1734 5.52954 11.1636 6.00432 10.8648 6.29112C10.5659 6.57793 10.0911 6.56817 9.80433 6.26931C9.3484 5.79424 8.70928 5.5 8.00017 5.5Z"
+                                            fill="#ffd70d"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                C
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg width="56.88" height="64" viewBox="0 0 455 512">
+                                    <path fill="#ffd70d"
+                                        d="M435.28 113.284L247.19 4.692c-10.835-6.256-28.567-6.256-39.402 0L19.701 113.284C8.865 119.54 0 134.896 0 147.408v217.184c.843 14.572 8.286 26.64 19.7 34.124l188.09 108.591c10.834 6.257 28.566 6.257 39.401 0L435.28 398.716c12.248-8.146 19.22-20.408 19.701-34.124V147.408c-.44-13.165-8.323-26.443-19.7-34.124M75.83 256.001c-.891-148.09 197.46-213.48 282.996-75.878l-65.634 37.98c-39.622-65.533-138.001-42.1-141.532 37.898c1.06 73.729 97.754 107.978 141.536 37.892l65.635 37.98c-75.383 130.862-279.2 83.78-283-75.872m303.32 8.424h-16.852v16.852H345.45v-16.852h-16.852v-16.85h16.852v-16.85h16.85v16.85h16.851zm63.192 0H425.49v16.852h-16.85v-16.852h-16.85v-16.85h16.852v-16.85h16.849v16.85h16.852z" />
+                                </svg>
+                            </span>
+                            <h4>
+                                C++
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg fill="#ffd70d" width="64px" height="64px" viewBox="0 0 24 24" role="img"
+                                    stroke="#ffd70d" stroke-width="0.4">
+                                    <g stroke-width="0"></g>
+                                    <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g>
+                                        <title>Java icon</title>
+                                        <path
+                                            d="M8.851 18.56s-.917.534.653.714c1.902.218 2.874.187 4.969-.211 0 0 .552.346 1.321.646-4.699 2.013-10.633-.118-6.943-1.149M8.276 15.933s-1.028.761.542.924c2.032.209 3.636.227 6.413-.308 0 0 .384.389.987.602-5.679 1.661-12.007.13-7.942-1.218M13.116 11.475c1.158 1.333-.304 2.533-.304 2.533s2.939-1.518 1.589-3.418c-1.261-1.772-2.228-2.652 3.007-5.688 0-.001-8.216 2.051-4.292 6.573M19.33 20.504s.679.559-.747.991c-2.712.822-11.288 1.069-13.669.033-.856-.373.75-.89 1.254-.998.527-.114.828-.093.828-.093-.953-.671-6.156 1.317-2.643 1.887 9.58 1.553 17.462-.7 14.977-1.82M9.292 13.21s-4.362 1.036-1.544 1.412c1.189.159 3.561.123 5.77-.062 1.806-.152 3.618-.477 3.618-.477s-.637.272-1.098.587c-4.429 1.165-12.986.623-10.522-.568 2.082-1.006 3.776-.892 3.776-.892M17.116 17.584c4.503-2.34 2.421-4.589.968-4.285-.355.074-.515.138-.515.138s.132-.207.385-.297c2.875-1.011 5.086 2.981-.928 4.562 0-.001.07-.062.09-.118M14.401 0s2.494 2.494-2.365 6.33c-3.896 3.077-.888 4.832-.001 6.836-2.274-2.053-3.943-3.858-2.824-5.539 1.644-2.469 6.197-3.665 5.19-7.627M9.734 23.924c4.322.277 10.959-.153 11.116-2.198 0 0-.302.775-3.572 1.391-3.688.694-8.239.613-10.937.168 0-.001.553.457 3.393.639">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                Java
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                        <!-- SKILL ITEM STARTS -->
+                        <div class="skill-items">
+                            <span>
+                                <svg width="64" height="64" viewBox="0 0 24 24">
+                                    <g fill="none" stroke="#ffd70d" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.2">
+                                        <path
+                                            d="M12 9H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h3m4-2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3" />
+                                        <path
+                                            d="M8 9V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4m-5-9v.01M13 18v.01" />
+                                    </g>
+                                </svg>
+                            </span>
+                            <h4>
+                                Python
+                            </h4>
+                        </div>
+                        <!-- SKILL ITEM ENDS -->
+                    </div>
+                </section>
+
+                <!-- ++++++++++admin-Resume section -->
+                <section id="my-resume">
+
+                    <div class="resume-3d-img">
+                        <img src="assets/images/nn5.webp" alt="">
+                         <img src="assets/images/mc2.webp" alt="">
+                   </div>
+
+                    <!-- <div class="custom-shape-divider-top-1708692832">
+                        <svg data-name="Layer 1" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+                        </svg>
+                    </div> -->
+                    <!-- TITLE STARTS -->
+                    <div class="resume-title ">
+                        <!-- MAIN TITLE STARTS -->
+                        <h3>
+                            <span>
+                                <span>
+                                    My Resume.
+                                </span>
+                            </span>
+                        </h3>
+                        <!-- MAIN TITLE ENDS -->
+                    </div>
+                    <!-- TITLE ENDS -->
+                    <!-- TIMELINE STARTS -->
+                    <div class="timeline">
+                        <ol>
+                            <!-- TIMELINE ITEM STARTS -->
+                            <li>
+                                <div>
+                                    <div class="education">
+                                        <h4>
+                                            Schooling X<span>th</span>
+                                        </h4>
+                                        <p>
+                                            <svg width="20" height="20" viewBox="0 0 48 48">
+                                                <g fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="4">
+                                                    <path
+                                                        d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z" />
+                                                    <path stroke-linecap="round" d="M24.008 12v12.01l8.479 8.48" />
+                                                </g>
+                                            </svg>
+                                            <span>2019</span>
+                                        </p>
+                                        <p>
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                                                <g stroke-width="0"></g>
+                                                <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                                <g>
+                                                    <path
+                                                        d="M5 8V17.0192M9 8V17M15 8V17M19 8V17.0192M5 17.0192C5.31428 17 5.70173 17 6.2 17H17.8C18.2983 17 18.6857 17 19 17.0192M5 17.0192C4.60779 17.0431 4.32953 17.097 4.09202 17.218C3.71569 17.4097 3.40973 17.7157 3.21799 18.092C3 18.5198 3 19.0799 3 20.2V21H21V20.2C21 19.0799 21 18.5198 20.782 18.092C20.5903 17.7157 20.2843 17.4097 19.908 17.218C19.6705 17.097 19.3922 17.0431 19 17.0192M3 5.5V8H21V5.5L12 3L3 5.5Z"
+                                                        stroke="#fff" stroke-width="0.8879999999999999"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </g>
+                                            </svg>
+                                            <span>C.B.S.E , new Delhi</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- TIMELINE ITEM ENDS -->
+                            <!-- TIMELINE ITEM STARTS -->
+                            <li>
+                                <div>
+                                    <div class="experience">
+                                        <h4>
+                                            UI/UX Designer
+                                        </h4>
+                                        <p>
+                                            <svg width="20" height="20" viewBox="0 0 48 48">
+                                                <g fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="4">
+                                                    <path
+                                                        d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z" />
+                                                    <path stroke-linecap="round" d="M24.008 12v12.01l8.479 8.48" />
+                                                </g>
+                                            </svg>
+                                            <span>2024 - Now</span>
+                                        </p>
+                                        <p>
+                                            <svg width="20" height="20" viewBox="0 0 16 16">
+                                                <g fill="currentColor">
+                                                    <path
+                                                        d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+                                                    <path
+                                                        d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z" />
+                                                </g>
+                                            </svg>
+                                            <span>Freelancer</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- TIMELINE ITEM ENDS -->
+                            <!-- TIMELINE ITEM STARTS -->
+                            <li>
+                                <div>
+                                    <div class="education">
+                                        <h4>
+                                            Intermediate XII<span>th</span>
+                                        </h4>
+                                        <p>
+                                            <svg width="20" height="20" viewBox="0 0 48 48">
+                                                <g fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="4">
+                                                    <path
+                                                        d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z" />
+                                                    <path stroke-linecap="round" d="M24.008 12v12.01l8.479 8.48" />
+                                                </g>
+                                            </svg>
+                                            <span>2019 - 2021</span>
+                                        </p>
+                                        <p>
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                                                <g stroke-width="0"></g>
+                                                <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                                <g>
+                                                    <path
+                                                        d="M5 8V17.0192M9 8V17M15 8V17M19 8V17.0192M5 17.0192C5.31428 17 5.70173 17 6.2 17H17.8C18.2983 17 18.6857 17 19 17.0192M5 17.0192C4.60779 17.0431 4.32953 17.097 4.09202 17.218C3.71569 17.4097 3.40973 17.7157 3.21799 18.092C3 18.5198 3 19.0799 3 20.2V21H21V20.2C21 19.0799 21 18.5198 20.782 18.092C20.5903 17.7157 20.2843 17.4097 19.908 17.218C19.6705 17.097 19.3922 17.0431 19 17.0192M3 5.5V8H21V5.5L12 3L3 5.5Z"
+                                                        stroke="#fff" stroke-width="0.8879999999999999"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </g>
+                                            </svg>
+                                            <span>(B.S.E.B) , Patna</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- TIMELINE ITEM ENDS -->
+                            <!-- TIMELINE ITEM STARTS -->
+                            <li>
+                                <div>
+                                    <div class="experience">
+                                        <h4>
+                                            Web Developer
+                                        </h4>
+                                        <p>
+                                            <svg width="20" height="20" viewBox="0 0 48 48">
+                                                <g fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="4">
+                                                    <path
+                                                        d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z" />
+                                                    <path stroke-linecap="round" d="M24.008 12v12.01l8.479 8.48" />
+                                                </g>
+                                            </svg>
+                                            <span>2024 - Now</span>
+                                        </p>
+                                        <p>
+                                            <svg width="20" height="20" viewBox="0 0 16 16">
+                                                <g fill="currentColor">
+                                                    <path
+                                                        d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+                                                    <path
+                                                        d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z" />
+                                                </g>
+                                            </svg>
+                                            <span>Freelancer</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- TIMELINE ITEM ENDS -->
+                            <!-- TIMELINE ITEM STARTS -->
+                            <li>
+                                <div>
+                                    <div class="education">
+                                        <h4>
+                                            Bachelor Degree (B.C.A)
+                                        </h4>
+                                        <p>
+                                            <svg width="20" height="20" viewBox="0 0 48 48">
+                                                <g fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="4">
+                                                    <path
+                                                        d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z" />
+                                                    <path stroke-linecap="round" d="M24.008 12v12.01l8.479 8.48" />
+                                                </g>
+                                            </svg>
+                                            <span>2021 - 2024</span>
+                                        </p>
+                                        <p>
+                                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                                                <g stroke-width="0"></g>
+                                                <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                                <g>
+                                                    <path
+                                                        d="M5 8V17.0192M9 8V17M15 8V17M19 8V17.0192M5 17.0192C5.31428 17 5.70173 17 6.2 17H17.8C18.2983 17 18.6857 17 19 17.0192M5 17.0192C4.60779 17.0431 4.32953 17.097 4.09202 17.218C3.71569 17.4097 3.40973 17.7157 3.21799 18.092C3 18.5198 3 19.0799 3 20.2V21H21V20.2C21 19.0799 21 18.5198 20.782 18.092C20.5903 17.7157 20.2843 17.4097 19.908 17.218C19.6705 17.097 19.3922 17.0431 19 17.0192M3 5.5V8H21V5.5L12 3L3 5.5Z"
+                                                        stroke="#fff" stroke-width="0.8879999999999999"
+                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </g>
+                                            </svg>
+                                            <span>Patliputra University</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- TIMELINE ITEM ENDS -->
+                            <li></li>
+                        </ol>
+                    </div>
+                    <!-- TIMELINE ENDS -->
+                </section>
+
+                <!-- ++++++++++++my-portfolio section+++++++++++ -->
+                <section id="portfolio">
+
+                    <div class="portfolio-title">
+                        <h4>My Portfolio.</h4>
+                    </div>
+
+                    <div class="gallery">
+                        <div class="gallery__item" id="g1" >
+                            <img class="gallery__img" src="assets/images/insta.webp" alt="">
+                            <div class="gallery__caption">
+                                <a href="https://abhishekh1516techboy.github.io/instagram-clone/" target="_blank">Insta UI clone 
+                                    <svg  width="15" height="15" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#dababa" stroke-width="4" d="M19 13v10H1V5h10m3-4h9v9m-13 4L23 1L10 14Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery__item" id="g2">
+                            <img class="gallery__img" src="assets/images/comming3.webp" alt="">
+                            <div class="gallery__caption">
+                                <a href="#portfolio">Upcomming 
+                                    <svg  width="15" height="15" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#dababa" stroke-width="4" d="M19 13v10H1V5h10m3-4h9v9m-13 4L23 1L10 14Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery__item" id="g3">
+                            <img class="gallery__img" src="assets/images/ticToegame.webp" alt="">
+                            <div class="gallery__caption">
+                                <a href="https://abhishekh1516techboy.github.io/Tic-Tac-Toe-Game/" target="_blank">Tic-Tac-Toem 
+                                    <svg  width="15" height="15" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#dababa" stroke-width="4" d="M19 13v10H1V5h10m3-4h9v9m-13 4L23 1L10 14Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery__item" id="g4">
+                            <img class="gallery__img" src="assets/images/landingpage.webp" alt="">
+                            <div class="gallery__caption">
+                                <a href="https://abhishekh1516techboy.github.io/Landing_Page/" target="_blank">study-Point 
+                                    <svg  width="15" height="15" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#dababa" stroke-width="4" d="M19 13v10H1V5h10m3-4h9v9m-13 4L23 1L10 14Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery__item" id="g5">
+                            <img class="gallery__img" src="assets/images/comming2.webp" alt="">
+                            <div class="gallery__caption">
+                                <a href="#portfolio">Upcomming 
+                                    <svg  width="15" height="15" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#dababa" stroke-width="4" d="M19 13v10H1V5h10m3-4h9v9m-13 4L23 1L10 14Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery__item" id="g6">
+                            <img class="gallery__img" src="assets/images/comming1.webp" alt="">
+                            <div class="gallery__caption">
+                                <a href="#portfolio">Upcomming 
+                                    <svg  width="15" height="15" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="#dababa" stroke-width="4" d="M19 13v10H1V5h10m3-4h9v9m-13 4L23 1L10 14Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <!-- ++++++++++++++ contact section+++++++++++++++ -->
+                <section id="contact">
+                    <div class="contact-title">
+                        <h4>Get in Touch</h4>
+                    </div>
+
+                            <!-- CONTACTS STARTS -->
+                            <div class="boxes">
+
+                               <div>
+                                  <!-- CONTACT ITEM STARTS -->
+                                  <div class="con-item">
+                                    <div class="box-icon">
+                                        <svg  width="30" height="30" viewBox="0 0 16 16">
+                                            <path fill="#ffd70d" fill-rule="evenodd" d="M14.031 11.852c-.428-.539-1.123-1.32-1.718-1.394c-.362-.045-.778.255-1.188.538c-.08.04-.698.408-.773.43c-.396.113-1.241.146-1.752-.32c-.492-.45-1.27-1.283-1.898-2.046c-.6-.786-1.229-1.731-1.551-2.311c-.336-.601-.094-1.396.114-1.746c.038-.063.498-.536.601-.646l.015.018c.381-.32.78-.645.825-.997c.074-.586-.525-1.439-.953-1.979C5.325.858 4.662-.089 3.759.045c-.34.05-.633.169-.922.34L2.829.376a1.823 1.823 0 0 0-.048.037l-.025.013l.003.004c-.166.128-.64.482-.694.53c-.586.521-1.468 1.748-.786 3.955c.506 1.64 1.585 3.566 3.055 5.514l-.008.007c.072.094.146.179.221.27c.07.093.139.185.211.277l.01-.007c1.56 1.879 3.196 3.381 4.689 4.267c2.01 1.192 3.439.655 4.099.228c.062-.041.534-.408.694-.529l.004.004c.006-.006.01-.014.018-.02a3.27 3.27 0 0 0 .043-.033l-.006-.008c.242-.234.436-.484.57-.799c.351-.829-.42-1.693-.848-2.234z"/>
+                                        </svg>
+                                    </div>
+                                     <p> 
+                                        <span class="small-text">phone</span>
+                                        <a href="tel:+91 620 460 91 87">+91 620 460 91 87</a>
+                                     </p>
+                                  </div>
+                                  <!-- CONTACT ITEM ENDS -->
+                                  <!-- CONTACT ITEM STARTS -->
+                                  
+                                  <div class="con-item">
+                                    <div class="box-icon">
+                                        <svg width="30" height="30" viewBox="0 0 20 20">
+                                            <path fill="#ffd70d" d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4a2 2 0 0 0 0 4z"/>
+                                        </svg>
+                                    </div>
+                                     <p> 
+                                        <span class="small-text">address</span>
+                                        <a href="https://www.google.com/maps/@25.6080374,85.1430429,12z?entry=ttu" target="_blank">Patna , Bihar</a>
+                                     </p>
+                                  </div>
+                                  <!-- CONTACT ITEM ENDS -->
+                               </div>
+
+                               <div>
+                                  <!-- CONTACT ITEM STARTS -->
+                                  <div class="con-item">
+                                    <div class="box-icon">
+                                        <svg  width="30" height="30" viewBox="0 0 42 42">
+                                            <path fill="#ffd70d" d="M40.5 31.5v-18S22.3 26.2 20.53 26.859C18.79 26.23.5 13.5.5 13.5v18c0 2.5.53 3 3 3h34c2.529 0 3-.439 3-3zm-.029-21.529c0-1.821-.531-2.471-2.971-2.471h-34c-2.51 0-3 .78-3 2.6l.03.28s18.069 12.44 20 13.12c2.04-.79 19.97-13.4 19.97-13.4l-.029-.129z"/>
+                                        </svg>
+                                    </div>
+                                     <p> 
+                                        <span class="small-text">email</span>
+                                        <a href="mailto:abhishekhkumar1516@gmail.com">abhishekhkumar1516@gmail.com</a>
+                                     </p>
+                                  </div>
+                                  <!-- CONTACT ITEM ENDS -->
+                                  <!-- CONTACT ITEM STARTS -->
+                                  <div class="con-item">
+                                    <div class="box-icon">
+                                        <svg  width="30" height="30" viewBox="0 0 24 24">
+                                            <path fill="none" stroke="#ffd70d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m12-6a3 3 0 1 0 6 0a3 3 0 1 0-6 0m0 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m-6.3-7.3l6.6-3.4m-6.6 6l6.6 3.4"/>
+                                        </svg>
+                                    </div>
+                                     <span class="small-text">follow me</span>
+                                     <ul class="social">
+                                        <li>
+                                            <a href="https://twitter.com/Abhishekh1516" target="_blank">
+                                                <svg width="26" height="26" viewBox="0 0 24 24">
+                                                    <path fill="#ccc"
+                                                        d="M18.205 2.25h3.308l-7.227 8.26l8.502 11.24H16.13l-5.214-6.817L4.95 21.75H1.64l7.73-8.835L1.215 2.25H8.04l4.713 6.231zm-1.161 17.52h1.833L7.045 4.126H5.078z" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/Abhishekh1516techboy" target="_blank">
+                                                <svg width="26" height="26" viewBox="0 0 15 15">
+                                                    <path fill="#ccc" d="M7.5 5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5" />
+                                                    <path fill="#ccc" fill-rule="evenodd"
+                                                        d="M4.5 0A4.5 4.5 0 0 0 0 4.5v6A4.5 4.5 0 0 0 4.5 15h6a4.5 4.5 0 0 0 4.5-4.5v-6A4.5 4.5 0 0 0 10.5 0zM4 7.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0M11 4h1V3h-1z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/Abhishekh1516techboy" target="_blank">
+                                                <svg width="26" height="26" viewBox="0 0 1000 1000">
+                                                    <path fill="#ccc"
+                                                        d="M196.064.25C88.347.25.187 88.408.187 196.127v607.841c0 107.717 88.158 195.845 195.877 195.845h607.841c107.718 0 195.845-88.127 195.845-195.845V196.127C999.75 88.41 911.623.25 803.905.25zm49.266 164.948c51.648 0 83.461 33.906 84.443 78.475c0 43.585-32.797 78.444-85.442 78.444h-.969c-50.665 0-83.412-34.857-83.412-78.444c0-44.568 33.738-78.475 85.379-78.475zm445.08 208.31c99.329 0 173.79 64.922 173.79 204.436v260.449H713.247V595.406c0-61.06-21.847-102.718-76.476-102.718c-41.704 0-66.562 28.078-77.476 55.202c-3.987 9.704-4.967 23.257-4.967 36.832v253.671H403.375s1.981-411.613 0-454.233h150.984v64.324c20.06-30.95 55.942-74.977 136.051-74.977zm-521.556 10.685h150.953v454.202H168.854z" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/Abhishekh1516techboy" target="_blank">
+                                                <svg width="28" height="28" viewBox="0 0 64 64">
+                                                    <path fill="#ccc"
+                                                        d="M32 0C14 0 0 14 0 32c0 21 19 30 22 30c2 0 2-1 2-2v-5c-7 2-10-2-11-5c0 0 0-1-2-3c-1-1-5-3-1-3c3 0 5 4 5 4c3 4 7 3 9 2c0-2 2-4 2-4c-8-1-14-4-14-15c0-4 1-7 3-9c0 0-2-4 0-9c0 0 5 0 9 4c3-2 13-2 16 0c4-4 9-4 9-4c2 7 0 9 0 9c2 2 3 5 3 9c0 11-7 14-14 15c1 1 2 3 2 6v8c0 1 0 2 2 2c3 0 22-9 22-30C64 14 50 0 32 0" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                     </ul>
+                                  </div>
+                                  <!-- CONTACT ITEM ENDS -->
+                               </div>
+                               
+                            </div>
+                            <!-- CONTACTS ENDS -->
+                </section>
+            </main>
+        </div>
+
+        <!--  Gsap is needed for Basic Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        
+        <!-- Scroll Trigger is needed for Scroll Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        
+        <!-- Three.js is needed for 3d Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+        
+        <!-- ControlKit is needed for Debug Panel -->
+        <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+        <script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+        <script src="script.js" defer></script>
+    </body>
+
+</html>
