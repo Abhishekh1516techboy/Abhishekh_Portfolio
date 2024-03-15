@@ -1,13 +1,13 @@
 //+++++++++++ PreLoader section ++++++++++++
 let preloader = document.querySelector('.portfolio-loader');
 
-// setTimeout(() => {
-//   preloader.style.transform = 'translateY(-100%)';
-// }, 6000)
+setTimeout(() => {
+  preloader.style.transform = 'translateY(-100%)';
+}, 6000)
 
-// setTimeout(() => {
-//   preloader.style.display = 'none';
-// }, 7000)
+setTimeout(() => {
+  preloader.style.display = 'none';
+}, 7000)
 
 
 // +++++++++heardr left slide section for smartfones++++++++++
