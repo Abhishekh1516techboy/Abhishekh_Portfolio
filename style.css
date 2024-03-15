@@ -248,15 +248,6 @@ main{
     overflow: hidden;
 }
 
-#home::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: #00000029;
-}
 
 .home-left{
     height: 100%;
@@ -483,11 +474,6 @@ main{
     scroll-snap-stop: always;
     scroll-snap-align:center;
     position: relative;
-     /* background-image: url(assets/images/dj7.webp); */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-position: center;
     background-color: var(--dark);
     overflow: hidden;
 }
@@ -656,11 +642,6 @@ cursor: pointer;
     scroll-snap-stop: always;
     scroll-snap-align:center;
     position: relative;
-    /* background-image: url(assets/images/dj6.webp); */
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-position: center;
     background-color: var(--dark);
     overflow: hidden;
 }
@@ -731,11 +712,6 @@ cursor: pointer;
 #my-resume{
     height: 100vh;
     width: 100%;
-    /* background-image: url(assets/images/nn5.webp); */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-position: center;
     background-color: var(--dark);
     user-select: none;
     -moz-user-select: none;
@@ -938,11 +914,6 @@ cursor: pointer;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
-    /* background-image: url(assets/images/nn6.webp); */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-position: center;
     background-color: var(--dark); 
     scroll-snap-stop: always;
     scroll-snap-align:center;
@@ -950,16 +921,6 @@ cursor: pointer;
     overflow: hidden;
 }
  
-#portfolio::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: #00000029;
-} 
-
 .portfolio-title{
     height: 4rem;
     width: 100%;
@@ -1123,17 +1084,6 @@ cursor: pointer;
     justify-content: center;
     overflow: hidden;
   }
-
-  /* #contact::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: #00000029;
-} */
-
 
   .contact-title{
     color: #00d0ff;

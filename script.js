@@ -87,34 +87,6 @@ if (window.screen.width <= 768){
       },
     });    
 
-gsap.to('.home-left .title h2 , .home-left .subtitle p',{
-  duration:0.3,
-  delay:.3,
-  x:400,
-  opacity:0,
-  scrollTrigger:{
-      trigger:'.home-left .title h2',
-      scroller:'body',
-      scrub:1,
-      start:'bottom 40%',
-      end:'bottom 20%',
-  },
-});
-
-gsap.to('.home-left .title h3 , .home-left .title p',{
-  duration:0.3,
-  delay:.3,
-  x:-150,
-  opacity:0,
-  scrollTrigger:{
-      trigger:'.home-info',
-      scroller:'body',
-      scrub:1,
-      start:'bottom 65%',
-      end:'bottom 50%',
-  },
-});
-
 gsap.to('.home-buttons-group',{
   duration:0.3,
   delay:.5,
@@ -172,19 +144,6 @@ gsap.from('.admin-dets-leftimg-box ',{
   },
 });
 
-gsap.to('.admin-dets-leftimg-box ',{
-  duration:0.3,
-  delay:.3,
-  x:-400,
-  scrollTrigger:{
-    trigger:'.admin-dets-right h4',
-    scroller:'body',
-    scrub:1,
-    start:'top 48%',
-    end:'bottom 20%',
-  },
-});
-
 gsap.from('.admin-dets-right h2',{
   duration:0.3,
   delay:.3,
@@ -199,18 +158,6 @@ gsap.from('.admin-dets-right h2',{
   },
 });
 
-gsap.to('.admin-dets-right h2',{
-  duration:0.3,
-  delay:.3,
-  scale:0,
-  scrollTrigger:{
-    trigger:'.admin-dets-right h4',
-    scroller:'body',
-    scrub:1,
-    start:'top 20%',
-    end:'bottom 10%',
-  },
-});
 
 gsap.from('.admin-dets-right h4',{
   duration:0.3,
@@ -226,21 +173,6 @@ gsap.from('.admin-dets-right h4',{
   },
 });
 
-gsap.to('.admin-dets-right h4',{
-  duration:0.8,
-  delay:.3,
-  // y:-200,
-  rotate:360,
-  scale:0,
-  scrollTrigger:{
-      trigger:'.admin-dets-right h4',
-      scroller:'body',
-      scrub:1,
-      start:'top 5%',
-      end:'bottom 10%',
-  },
-});
-
 gsap.from('.admin-infos ul>li , .admin-resume',{
   duration:0.3,
   delay:.5,
@@ -250,20 +182,7 @@ gsap.from('.admin-infos ul>li , .admin-resume',{
       trigger:'.admin-dets-right h4',
       scroller:'body',
       scrub:1,
-      start:'top 60%',
-      end:'bottom 30%',
-  },
-});
-
-gsap.to('.admin-infos ul>li , .admin-resume',{
-  duration:0.3,
-  delay:.3,
-  x:420,
-  scrollTrigger:{
-      trigger:'.admin-infos',
-      scroller:'body',
-      scrub:1,
-      start:'top 6%',
+      start:'top 65%',
       end:'bottom 30%',
   },
 });
@@ -283,19 +202,6 @@ gsap.from('.skill-items , .custom-title',{
   },
 });
 
-gsap.to('.skill-items',{
-  duration:0.3,
-  delay:.3,
-  y:800,
-  scrollTrigger:{
-      trigger:'#my-resume .timeline ol',
-      scroller:'body',
-      scrub:1,
-      start:'top 92%',
-      end:'bottom 80%',
-  },
-});
-
 gsap.from('#my-resume .timeline ol li , .resume-title' ,{
   duration:0.3,
   delay:.5,
@@ -312,19 +218,6 @@ gsap.from('#my-resume .timeline ol li , .resume-title' ,{
   },
 });
 
-gsap.to('#my-resume .timeline ol li' ,{
-  duration:0.3,
-  delay:.5,
-  right:800,
-  scrollTrigger:{
-      trigger:'.gallery__item',
-      scroller:'body',
-      scrub:1,
-      start:'top 85%',
-      end:'bottom 65%',
-  },
-});
-
 gsap.from('.gallery__item , .portfolio-title h4' ,{
   duration:0.3,
   delay:.5,
@@ -336,21 +229,6 @@ gsap.from('.gallery__item , .portfolio-title h4' ,{
       scrub:1,
       start:'top 55%',
       end:'bottom 90%',
-  },
-});
-
-gsap.to('.gallery__item' ,{
-  duration:0.3,
-  delay:.3,
-  scale:0.1,
-  rotate:360,
-  y:-400,
-  scrollTrigger:{
-      trigger:'.contact-title',
-      scroller:'body',
-      scrub:1,
-      start:'top 80%',
-      end:'bottom 70%',
   },
 });
 
