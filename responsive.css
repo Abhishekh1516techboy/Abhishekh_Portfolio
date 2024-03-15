@@ -2038,7 +2038,7 @@ main::-webkit-scrollbar{
     }
 
     .author{
-        height: 15rem;
+        height: 12rem;
     }
 
     .author-img{
@@ -2048,12 +2048,8 @@ main::-webkit-scrollbar{
 
     .nav {
         height: 22rem;
-        gap: 2rem;
+        gap: 1.5rem;
         overflow: hidden;
-    }
-
-    .footer{
-        margin-top: 3rem;
     }
 
     .cross-icon{
@@ -2093,7 +2089,7 @@ main::-webkit-scrollbar{
     .home-left{
         height: 60%;
         width: 100%;
-        padding-left: 0.8rem;
+        padding-left: 0.7rem;
         justify-content: flex-end;
     }
     

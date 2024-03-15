@@ -483,7 +483,7 @@ main{
     scroll-snap-stop: always;
     scroll-snap-align:center;
     position: relative;
-     background-image: url(assets/images/dj7.webp);
+     /* background-image: url(assets/images/dj7.webp); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -656,7 +656,7 @@ cursor: pointer;
     scroll-snap-stop: always;
     scroll-snap-align:center;
     position: relative;
-    background-image: url(assets/images/dj6.webp);
+    /* background-image: url(assets/images/dj6.webp); */
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -664,37 +664,6 @@ cursor: pointer;
     background-color: var(--dark);
     overflow: hidden;
 }
-
-/* .custom-shape-divider-top-1708694272 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1708694272 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 155px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1708694272 .shape-fill {
-    fill: #45155f;
-}  */
-
-/* .admin-skills::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: #00000029;
-} */
 
 /* skill title section */
 .custom-title{
@@ -762,7 +731,7 @@ cursor: pointer;
 #my-resume{
     height: 100vh;
     width: 100%;
-    background-image: url(assets/images/nn5.webp);
+    /* background-image: url(assets/images/nn5.webp); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -778,36 +747,6 @@ cursor: pointer;
     filter: brightness(105%);
     overflow: hidden;
 }
-
-/* .custom-shape-divider-top-1708692832 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1708692832 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1708692832 .shape-fill {
-    fill: #6b6565;
-} */
-
-/* #my-resume::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: #00000029;
-} */
 
 .resume-title{
     color: #00d0ff;
@@ -999,7 +938,7 @@ cursor: pointer;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
-    background-image: url(assets/images/nn6.webp);
+    /* background-image: url(assets/images/nn6.webp); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
