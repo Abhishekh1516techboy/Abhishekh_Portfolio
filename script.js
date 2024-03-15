@@ -1,14 +1,13 @@
 //+++++++++++ PreLoader section ++++++++++++
 let preloader = document.querySelector('.portfolio-loader');
-let preloaderImg = document.querySelector('.portfolio-loader img');
 
-setTimeout(() => {
-  preloader.style.transform = 'translateY(-100%)';
-}, 6000)
+// setTimeout(() => {
+//   preloader.style.transform = 'translateY(-100%)';
+// }, 6000)
 
-setTimeout(() => {
-  preloader.style.display = 'none';
-}, 6500)
+// setTimeout(() => {
+//   preloader.style.display = 'none';
+// }, 7000)
 
 
 // +++++++++heardr left slide section for smartfones++++++++++
@@ -83,7 +82,7 @@ if (window.screen.width <= 768){
           trigger:'.home-right ',
           scroller:'body',
           scrub:1,
-          start:'bottom 32%',
+          start:'bottom 36%',
           end:'bottom 20%',
       },
     });    
@@ -94,10 +93,10 @@ gsap.to('.home-left .title h2 , .home-left .subtitle p',{
   x:400,
   opacity:0,
   scrollTrigger:{
-      trigger:'.home-right',
+      trigger:'.home-left .title h2',
       scroller:'body',
       scrub:1,
-      start:'bottom 28%',
+      start:'bottom 40%',
       end:'bottom 20%',
   },
 });
@@ -108,10 +107,10 @@ gsap.to('.home-left .title h3 , .home-left .title p',{
   x:-150,
   opacity:0,
   scrollTrigger:{
-      trigger:'home-left',
+      trigger:'.home-info',
       scroller:'body',
       scrub:1,
-      start:'bottom 98%',
+      start:'bottom 65%',
       end:'bottom 50%',
   },
 });
@@ -122,11 +121,11 @@ gsap.to('.home-buttons-group',{
   x:400,
   opacity:0,
   scrollTrigger:{
-    trigger:'home-left',
+    trigger:'.home-info',
     scroller:'body',
     scrub:1,
-    start:'bottom 98%',
-    end:'bottom 50%',
+    start:'bottom 50%',
+    end:'bottom 30%',
   },
 });
 
@@ -139,8 +138,8 @@ gsap.to('.home-info',{
     trigger:'home-left',
     scroller:'body',
     scrub:1,
-    start:'bottom 72%',
-    end:'bottom 50%',
+    start:'bottom 50%',
+    end:'bottom 30%',
   },
 });
 
@@ -168,20 +167,20 @@ gsap.from('.admin-dets-leftimg-box ',{
       trigger:'admin-dets-left',
       scroller:'body',
       scrub:1,
-      start:'bottom 60%',
-      end:'bottom 40%',
+      start:'bottom 80%',
+      end:'bottom 20%',
   },
 });
 
 gsap.to('.admin-dets-leftimg-box ',{
   duration:0.3,
   delay:.3,
-  y:900,
+  x:-400,
   scrollTrigger:{
     trigger:'.admin-dets-right h4',
     scroller:'body',
     scrub:1,
-    start:'top 40%',
+    start:'top 48%',
     end:'bottom 20%',
   },
 });
@@ -222,7 +221,7 @@ gsap.from('.admin-dets-right h4',{
       trigger:'.admin-dets-right h4',
       scroller:'body',
       scrub:1,
-      start:'top 40%',
+      start:'top 55%',
       end:'bottom 70%',
   },
 });
@@ -251,8 +250,8 @@ gsap.from('.admin-infos ul>li , .admin-resume',{
       trigger:'.admin-dets-right h4',
       scroller:'body',
       scrub:1,
-      start:'top 19%',
-      end:'bottom 90%',
+      start:'top 60%',
+      end:'bottom 30%',
   },
 });
 
@@ -692,44 +691,9 @@ gsap.from('#contact .boxes>div .con-item , .contact-title' ,{
   });
 
   Shery.hoverWithMediaCircle(".author , .social-icon , .home-right>img , .title , #yoyo , .home-info ul , .admin-dets-left img , .timeline li" /* Element to target.*/, {
-    images: ["assets/images/.jpg", "image2.jpg", "image3.jpg"] /*OR*/,
+    images: ["image1.jpg", "image2.jpg", "image3.jpg"] ,
+                      /*OR*/
     //videos: ["video1.mp4", "video2.mp4"],
-  });
-
-  Shery.imageEffect(".home-3d-img", {
-    style: 2, //Select Style
-    // debug: true, // Debug Panel
-    config: {
-      "resolutionXY": { "value": 1000 }, "distortion": { "value": true }, "mode": { "value": -3 }, "mousemove": { "value": 0 }, "modeA": { "value": 1 }, "modeN": { "value": 0 }, "speed": { "value": 1, "range": [-500, 500], "rangep": [-10, 10] }, "frequency": { "value": 50, "range": [-800, 800], "rangep": [-50, 50] }, "angle": { "value": 0.5, "range": [0, 3.141592653589793] }, "waveFactor": { "value": 1.82, "range": [-3, 3] }, "color": { "value": 6137077 }, "pixelStrength": { "value": 3.51, "range": [-20, 100], "rangep": [-20, 20] }, "quality": { "value": 4.68, "range": [0, 10] }, "contrast": { "value": 1, "range": [-25, 25] }, "brightness": { "value": 1.5, "range": [-1, 25] }, "colorExposer": { "value": 0.19, "range": [-5, 5] }, "strength": { "value": 0.19, "range": [-40, 40], "rangep": [-5, 5] }, "exposer": { "value": 8, "range": [-100, 100] }, "zindex": { "value": -9996999, "range": [-9999999, 9999999] }, "aspect": { "value": 1.6545841353822188 }, "ignoreShapeAspect": { "value": true }, "shapePosition": { "value": { "x": 0, "y": 0 } }, "shapeScale": { "value": { "x": 0.5, "y": 0.5 } }, "shapeEdgeSoftness": { "value": 0, "range": [0, 0.5] }, "shapeRadius": { "value": 0, "range": [0, 2] }, "currentScroll": { "value": 0.01 }, "scrollLerp": { "value": 1.2 }, "gooey": { "value": false }, "infiniteGooey": { "value": false }, "growSize": { "value": 4, "range": [1, 15] }, "durationOut": { "value": 1, "range": [0.1, 5] }, "durationIn": { "value": 1.5, "range": [0.1, 5] }, "displaceAmount": { "value": 0.5 }, "masker": { "value": false }, "maskVal": { "value": 1, "range": [1, 5] }, "scrollType": { "value": 0 }, "geoVertex": { "range": [1, 64], "value": 1 }, "noEffectGooey": { "value": true }, "onMouse": { "value": 0 }, "noise_speed": { "value": 0.2, "range": [0, 10] }, "metaball": { "value": 0.2, "range": [0, 2] }, "discard_threshold": { "value": 0.5, "range": [0, 1] }, "antialias_threshold": { "value": 0.002, "range": [0, 0.1] }, "noise_height": { "value": 0.5, "range": [0, 2] }, "noise_scale": { "value": 10, "range": [0, 100] }
-    },
-    preset: "./presets/wigglewobble.json",
-  });
-
-  Shery.imageEffect(".about-3d-img", {
-    style: 2, //Select Style
-    // debug: true, // Debug Panel
-    config: {
-      "resolutionXY": { "value": 1000 }, "distortion": { "value": true }, "mode": { "value": -3 }, "mousemove": { "value": 0 }, "modeA": { "value": 1 }, "modeN": { "value": 0 }, "speed": { "value": 1, "range": [-500, 500], "rangep": [-10, 10] }, "frequency": { "value": 50, "range": [-800, 800], "rangep": [-50, 50] }, "angle": { "value": 0.5, "range": [0, 3.141592653589793] }, "waveFactor": { "value": 1.82, "range": [-3, 3] }, "color": { "value": 6137077 }, "pixelStrength": { "value": 3.51, "range": [-20, 100], "rangep": [-20, 20] }, "quality": { "value": 4.68, "range": [0, 10] }, "contrast": { "value": 1, "range": [-25, 25] }, "brightness": { "value": 1.5, "range": [-1, 25] }, "colorExposer": { "value": 0.19, "range": [-5, 5] }, "strength": { "value": 0.19, "range": [-40, 40], "rangep": [-5, 5] }, "exposer": { "value": 8, "range": [-100, 100] }, "zindex": { "value": -9996999, "range": [-9999999, 9999999] }, "aspect": { "value": 1.6545841353822188 }, "ignoreShapeAspect": { "value": true }, "shapePosition": { "value": { "x": 0, "y": 0 } }, "shapeScale": { "value": { "x": 0.5, "y": 0.5 } }, "shapeEdgeSoftness": { "value": 0, "range": [0, 0.5] }, "shapeRadius": { "value": 0, "range": [0, 2] }, "currentScroll": { "value": 0.01 }, "scrollLerp": { "value": 1 }, "gooey": { "value": true }, "infiniteGooey": { "value": false }, "growSize": { "value": 4, "range": [1, 15] }, "durationOut": { "value": 1, "range": [0.1, 5] }, "durationIn": { "value": 1.5, "range": [0.1, 5] }, "displaceAmount": { "value": 0.5 }, "masker": { "value": false }, "maskVal": { "value": 1, "range": [1, 5] }, "scrollType": { "value": 0 }, "geoVertex": { "range": [1, 64], "value": 1 }, "noEffectGooey": { "value": true }, "onMouse": { "value": 0 }, "noise_speed": { "value": 0.2, "range": [0, 10] }, "metaball": { "value": 0.2, "range": [0, 2] }, "discard_threshold": { "value": 0.5, "range": [0, 1] }, "antialias_threshold": { "value": 0.002, "range": [0, 0.1] }, "noise_height": { "value": 0.5, "range": [0, 2] }, "noise_scale": { "value": 10, "range": [0, 100] }
-    },
-    preset: "./presets/wigglewobble.json",
-  });
-
-  Shery.imageEffect(".skill-3d-img", {
-    style: 2, //Select Style
-    // debug: true, // Debug Panel
-    config: {
-      "resolutionXY": { "value": 1000 }, "distortion": { "value": true }, "mode": { "value": -3 }, "mousemove": { "value": 0 }, "modeA": { "value": 1 }, "modeN": { "value": 0 }, "speed": { "value": 1, "range": [-500, 500], "rangep": [-10, 10] }, "frequency": { "value": 30.77, "range": [-800, 800], "rangep": [-50, 50] }, "angle": { "value": 1.49, "range": [0, 3.141592653589793] }, "waveFactor": { "value": 1.82, "range": [-3, 3] }, "color": { "value": 6137077 }, "pixelStrength": { "value": 2.31, "range": [-20, 100], "rangep": [-20, 20] }, "quality": { "value": 9.81, "range": [0, 10] }, "contrast": { "value": 1, "range": [-25, 25] }, "brightness": { "value": 0.6, "range": [-1, 25] }, "colorExposer": { "value": 0.19, "range": [-5, 5] }, "strength": { "value": 0.19, "range": [-40, 40], "rangep": [-5, 5] }, "exposer": { "value": 8, "range": [-100, 100] }, "zindex": { "value": -9996999, "range": [-9999999, 9999999] }, "aspect": { "value": 1.6545841353822188 }, "ignoreShapeAspect": { "value": true }, "shapePosition": { "value": { "x": 0, "y": 0 } }, "shapeScale": { "value": { "x": 0.5, "y": 0.5 } }, "shapeEdgeSoftness": { "value": 0, "range": [0, 0.5] }, "shapeRadius": { "value": 0, "range": [0, 2] }, "currentScroll": { "value": 0.9873399806659411 }, "scrollLerp": { "value": 1 }, "gooey": { "value": true }, "infiniteGooey": { "value": false }, "growSize": { "value": 4, "range": [1, 15] }, "durationOut": { "value": 1, "range": [0.1, 5] }, "durationIn": { "value": 1.5, "range": [0.1, 5] }, "displaceAmount": { "value": 0.5 }, "masker": { "value": false }, "maskVal": { "value": 1, "range": [1, 5] }, "scrollType": { "value": 0 }, "geoVertex": { "range": [1, 64], "value": 1 }, "noEffectGooey": { "value": true }, "onMouse": { "value": 0 }, "noise_speed": { "value": 0.2, "range": [0, 10] }, "metaball": { "value": 0.2, "range": [0, 2] }, "discard_threshold": { "value": 0.5, "range": [0, 1] }, "antialias_threshold": { "value": 0.002, "range": [0, 0.1] }, "noise_height": { "value": 0.5, "range": [0, 2] }, "noise_scale": { "value": 10, "range": [0, 100] }
-    },
-    preset: "./presets/wigglewobble.json",
-  });
-
-  Shery.imageEffect(".resume-3d-img", {
-    style: 2, //Select Style
-    // debug: true, // Debug Panel
-    config: {
-      "resolutionXY": { "value": 1000 }, "distortion": { "value": true }, "mode": { "value": -3 }, "mousemove": { "value": 0 }, "modeA": { "value": 1 }, "modeN": { "value": 0 }, "speed": { "value": 1, "range": [-500, 500], "rangep": [-10, 10] }, "frequency": { "value": 50, "range": [-800, 800], "rangep": [-50, 50] }, "angle": { "value": 0.5, "range": [0, 3.141592653589793] }, "waveFactor": { "value": 1.82, "range": [-3, 3] }, "color": { "value": 6137077 }, "pixelStrength": { "value": 3.51, "range": [-20, 100], "rangep": [-20, 20] }, "quality": { "value": 4.68, "range": [0, 10] }, "contrast": { "value": 1, "range": [-25, 25] }, "brightness": { "value": 1.5, "range": [-1, 25] }, "colorExposer": { "value": 0.19, "range": [-5, 5] }, "strength": { "value": 0.19, "range": [-40, 40], "rangep": [-5, 5] }, "exposer": { "value": 8, "range": [-100, 100] }, "zindex": { "value": -9996999, "range": [-9999999, 9999999] }, "aspect": { "value": 1.6545841353822188 }, "ignoreShapeAspect": { "value": true }, "shapePosition": { "value": { "x": 0, "y": 0 } }, "shapeScale": { "value": { "x": 0.5, "y": 0.5 } }, "shapeEdgeSoftness": { "value": 0, "range": [0, 0.5] }, "shapeRadius": { "value": 0, "range": [0, 2] }, "currentScroll": { "value": 2 }, "scrollLerp": { "value": 1 }, "gooey": { "value": true }, "infiniteGooey": { "value": false }, "growSize": { "value": 4, "range": [1, 15] }, "durationOut": { "value": 1, "range": [0.1, 5] }, "durationIn": { "value": 1.5, "range": [0.1, 5] }, "displaceAmount": { "value": 0.5 }, "masker": { "value": false }, "maskVal": { "value": 1, "range": [1, 5] }, "scrollType": { "value": 0 }, "geoVertex": { "range": [1, 64], "value": 1 }, "noEffectGooey": { "value": true }, "onMouse": { "value": 0 }, "noise_speed": { "value": 0.2, "range": [0, 10] }, "metaball": { "value": 0.2, "range": [0, 2] }, "discard_threshold": { "value": 0.5, "range": [0, 1] }, "antialias_threshold": { "value": 0.002, "range": [0, 0.1] }, "noise_height": { "value": 0.5, "range": [0, 2] }, "noise_scale": { "value": 10, "range": [0, 100] }
-    },
-    preset: "./presets/wigglewobble.json",
   });
 
 }

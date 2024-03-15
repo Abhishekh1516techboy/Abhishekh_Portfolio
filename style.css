@@ -239,16 +239,16 @@ main{
     scroll-snap-align: center;
     scroll-snap-stop: always;
     position: relative;
-    /* background-image: url(assets/images/11.webp);
+    background-image: url(assets/images/11.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     object-position: center;
-    background-color: var(--dark); */
+    background-color: var(--dark);
     overflow: hidden;
 }
 
-/* #home::before {
+#home::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -256,18 +256,7 @@ main{
     bottom: 0px;
     left: 0px;
     background-color: #00000029;
-} */
-
-/* home 3d- image section */
-.home-3d-img{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
 }
-
 
 .home-left{
     height: 100%;
@@ -494,23 +483,12 @@ main{
     scroll-snap-stop: always;
     scroll-snap-align:center;
     position: relative;
-     /* background-image: url(assets/images/dj7.webp);
+     background-image: url(assets/images/dj7.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     object-position: center;
-    background-color: var(--dark); */
-    overflow: hidden;
-}
-
-
-/* Admin 3d- image section */
-.about-3d-img{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    background-color: var(--dark);
     overflow: hidden;
 }
 
@@ -678,12 +656,12 @@ cursor: pointer;
     scroll-snap-stop: always;
     scroll-snap-align:center;
     position: relative;
-    /* background-image: url(assets/images/dj6.webp);
+    background-image: url(assets/images/dj6.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     object-position: center;
-    background-color: var(--dark); */
+    background-color: var(--dark);
     overflow: hidden;
 }
 
@@ -717,17 +695,6 @@ cursor: pointer;
     left: 0px;
     background-color: #00000029;
 } */
-
-
-/* Skill 3d- image section */
-.skill-3d-img{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
-}
 
 /* skill title section */
 .custom-title{
@@ -795,12 +762,12 @@ cursor: pointer;
 #my-resume{
     height: 100vh;
     width: 100%;
-    /* background-image: url(assets/images/nn5.webp);
+    background-image: url(assets/images/nn5.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     object-position: center;
-    background-color: var(--dark); */
+    background-color: var(--dark);
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -841,16 +808,6 @@ cursor: pointer;
     left: 0px;
     background-color: #00000029;
 } */
-
-/* Resume 3d- image section */
-.resume-3d-img{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
-}
 
 .resume-title{
     color: #00d0ff;
@@ -1047,13 +1004,13 @@ cursor: pointer;
     background-size: cover;
     background-repeat: no-repeat;
     object-position: center;
-    background-color: var(--dark);
+    background-color: var(--dark); 
     scroll-snap-stop: always;
     scroll-snap-align:center;
     position: relative;
     overflow: hidden;
 }
-
+ 
 #portfolio::before{
     content: "";
     position: absolute;
@@ -1062,7 +1019,7 @@ cursor: pointer;
     bottom: 0px;
     left: 0px;
     background-color: #00000029;
-}
+} 
 
 .portfolio-title{
     height: 4rem;
@@ -1228,7 +1185,7 @@ cursor: pointer;
     overflow: hidden;
   }
 
-  #contact::before{
+  /* #contact::before{
     content: "";
     position: absolute;
     top: 0px;
@@ -1236,7 +1193,7 @@ cursor: pointer;
     bottom: 0px;
     left: 0px;
     background-color: #00000029;
-}
+} */
 
 
   .contact-title{
