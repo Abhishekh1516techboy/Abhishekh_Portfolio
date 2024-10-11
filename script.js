@@ -43,7 +43,7 @@ let typeEffect = () => {
   typeWriter.classList.add('stop-blink');
 
   if (!isDelete && charIdx < currWord.length) {
-    // if condition is true, then ype the next character
+    // if condition is true, then type the next character
     charIdx++;
     setTimeout(() => {
       typeEffect()
