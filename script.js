@@ -69,7 +69,7 @@ typeEffect(); //Typewriter effec calling
 
 // when device are smartphones and tablets working this code..  
 
-if (window.screen.width <= 768){
+if (window.innerWidth <= 768){
     // gsap scrollTrigger
 
     gsap.to('.home-right img',{
@@ -253,7 +253,7 @@ gsap.from('#contact .boxes>div .con-item , .contact-title' ,{
 // **************************************************************
 // when device are laptop and monitors or big screen working this code..  
 
-if (window.screen.width >= 1024) {
+if (window.innerWidth >= 1024) {
 
   // gsap scrollTrigger
 gsap.to('.home-right img , .home-left .title h2 , .home-left .subtitle p ' ,{
