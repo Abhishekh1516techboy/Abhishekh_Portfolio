@@ -107,7 +107,7 @@ gsap.to('.home-info',{
   y:120,
   opacity:0,
   scrollTrigger:{
-    trigger:'home-left',
+    trigger:'.home-left',
     scroller:'body',
     scrub:1,
     start:'bottom 50%',
